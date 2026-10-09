@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="48dp"
+    android:layout_height="48dp">
+
+    <ImageView
+        android:id="@+id/btnVolume"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@android:drawable/ic_lock_silent_mode_off"
+        android:background="@drawable/circle_bg"
+        android:padding="11dp"
+        android:alpha="0.80"
+        android:scaleType="centerInside"
+        android:contentDescription="Control de volumen" />
+</FrameLayout>
